@@ -7,4 +7,6 @@ const knex = require('knex')({
     database : 'ks-store',
     charset  : 'utf8'
   }
-})
+});
+
+module.exports = knex;
