@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bookshelf": "^1.2.0",
+    "mysql": "^2.18.1",
+    "knex": "^0.95.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KritikaSharmaKS/Bookshelf-Youtube.git"
+  },
+  "author": "Kritika Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KritikaSharmaKS/Bookshelf-Youtube/issues"
+  },
+  "homepage": "https://github.com/KritikaSharmaKS/Bookshelf-Youtube#readme"
+}
