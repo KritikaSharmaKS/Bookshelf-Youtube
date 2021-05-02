@@ -5,4 +5,6 @@ const Customer = bookshelf.model('Customer', {
   orders() {
     return this.hasMany(Orders)
   }
-})
+});
+
+module.exports = Customer;
