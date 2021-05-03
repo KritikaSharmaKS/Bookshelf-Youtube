@@ -9,4 +9,10 @@ const knex = require('knex')({
   }
 });
 
-module.exports.bookshelf = require('bookshelf')(knex);
+bookshelf = require('bookshelf')(knex);
+
+// Bookshelf supported plugins.
+bookshelf.plugin('registry');
+bookshelf.plugin('visibility');
+
+module.exports = bookshelf;
