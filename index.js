@@ -6,8 +6,12 @@ new Customer({name: "Chandler Bing", email: "cb@gmail.com"})
     .save()
     .then(customer => {
         console.log("First Customer Created: ", customer);
+        new Customer({id: customer.id})
+            .fetch()
+            .then((model) => {
+                console.log(model.get('id'));
+            });
     })
     .catch((err) => {
         console.log(err);
     });
-
